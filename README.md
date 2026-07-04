@@ -11,6 +11,12 @@ access control, lineage, cost awareness, and auditability.
 ODAP is not a single product. It is a category that combines open data access,
 semantic context, agentic SQL generation, persistent memory, and governance.
 
+## Professional Reports
+
+- [ODAP Landscape 2026 English Report](reports/ODAP_Landscape_2026_English_Report.pdf)
+- [ODAP Landscape 2026 Chinese Report](reports/ODAP_Landscape_2026_Chinese_Report.pdf)
+- [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
+
 ## Why This List Exists
 
 There is no widely maintained encyclopedia entry for "Open Data Agent Platform"

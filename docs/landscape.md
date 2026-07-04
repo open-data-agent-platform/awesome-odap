@@ -2,6 +2,12 @@
 
 This landscape maps the ODAP category by functional layer.
 
+## Professional Reports
+
+- [ODAP Landscape 2026 English Report](../reports/ODAP_Landscape_2026_English_Report.pdf)
+- [ODAP Landscape 2026 Chinese Report](../reports/ODAP_Landscape_2026_Chinese_Report.pdf)
+- [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
+
 ## Layer 1: Data Gateway
 
 Purpose: connect to warehouses, object storage, databases, APIs, and lakehouse
