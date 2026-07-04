@@ -187,6 +187,8 @@ environment.
 
 ## Evaluation Checklist
 
+Full scoring standard: [ODAP Scoring Rubric v1.0](RUBRIC.md)
+
 Use this checklist to evaluate whether a product belongs in the ODAP category.
 Questions are grouped by the Five Musts:
 
