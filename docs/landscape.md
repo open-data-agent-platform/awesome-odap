@@ -8,6 +8,13 @@ This landscape maps the ODAP category by functional layer.
 - [ODAP Landscape 2026 Chinese Report](../reports/ODAP_Landscape_2026_Chinese_Report.pdf)
 - [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
 
+## Scoring and Challenges
+
+Landscape scoring is governed by the [ODAP Scoring Rubric v1.0](../RUBRIC.md).
+Challenge any score via a
+[GitHub issue](https://github.com/open-data-agent-platform/awesome-odap/issues)
+with public evidence and the relevant clause ID.
+
 ## Layer 1: Data Gateway
 
 Purpose: connect to warehouses, object storage, databases, APIs, and lakehouse
