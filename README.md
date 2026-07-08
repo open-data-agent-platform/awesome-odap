@@ -15,7 +15,9 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 > **Five Musts** (Open, Semantic, Governed, Auditable, Cost-controlled) — are
 > defined in [The ODAP Manifesto](https://googlesql.com/odap/manifesto).
 > This repository is the neutral ecosystem map built around those principles.
-
+<p align="center">
+  <img src="odap-reference-architecture.png" alt="ODAP Reference Architecture — the five layers and Five Musts of the Open Data Agent Platform" width="820">
+</p>
 ## Professional Reports
 
 - [ODAP Landscape 2026 English Report](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Landscape_2026_English_Report.pdf)
