@@ -16,7 +16,7 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 > defined in [The ODAP Manifesto](https://googlesql.com/odap/manifesto).
 > This repository is the neutral ecosystem map built around those principles.
 <p align="center">
-  <img src="odap-reference-architecture.png" alt="ODAP Reference Architecture — the five layers and Five Musts of the Open Data Agent Platform" width="820">
+  <img src="assets/odap-reference-architecture.png" alt="ODAP Reference Architecture — the five layers and Five Musts of the Open Data Agent Platform" width="820">
 </p>
 ## Professional Reports
 
