@@ -190,9 +190,7 @@ and reference implementation of the Five Musts — schema-aware SQL generation,
 dry-run cost estimation, approval flows, and audit trails, starting with
 BigQuery. Now open source: [odap-gateway](https://github.com/open-data-agent-platform/odap-gateway)
 (Apache-2.0, with an honest [clause-by-clause mapping](https://github.com/open-data-agent-platform/odap-gateway/blob/main/ODAP_CLAUSE_MAPPING.md)).
-Reference implementation now open source:
-[odap-gateway](https://github.com/open-data-agent-platform/odap-gateway)
-(Apache-2.0, clause-mapped).
+
 - [Wren AI](https://www.getwren.ai/) - A strong adjacent open-source GenBI
 implementation with context, semantic modeling, policies, memory, and
 governed text-to-SQL.
