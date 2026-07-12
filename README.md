@@ -21,8 +21,11 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 </p>
 ## Professional Reports
 
+- [ODAP Whitepaper v1.0 English PDF](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Whitepaper_v1.0_English.pdf)
+- [ODAP Whitepaper v1.0 Chinese PDF](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Whitepaper_v1.0_Chinese.pdf)
 - [ODAP Landscape 2026 English Report](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Landscape_2026_English_Report.pdf)
 - [ODAP Landscape 2026 Chinese Report](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Landscape_2026_Chinese_Report.pdf)
+- [ODAP data-room cover documents](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/DATA_ROOM_COVER.md)
 - [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
 
 ## Adoption
