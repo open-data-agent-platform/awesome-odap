@@ -15,6 +15,23 @@ Challenge any score via a
 [GitHub issue](https://github.com/open-data-agent-platform/awesome-odap/issues)
 with public evidence and the relevant clause ID.
 
+## Landscape v1.2 — July 2026
+
+| Vendor | Open | Semantic | Governed | Auditable | Cost-controlled | Total /25 |
+|---|---|---|---|---|---|---|
+| Databricks | 5 | 4 | 5 | 5 | 5 | **24** |
+| Google Agentic Data Cloud | 4 | 4 | 5 | 4 | 5 | **22** |
+| Starburst | 5 | 4 | 3 | 3 | 3 | **18** |
+| Acceldata | 3 | 3 | 3 | 4 | 3 | **16** |
+| TiDB Cloud (PingCAP) | 3 | 2 | 2 | 3 | 3 | **13** |
+| Agent-first cloud platforms | 3 | 2 | 2 | 2 | 3 | **12** |
+
+**What changed since v1.1:** Databricks recalibrated 23 → 24 following the
+DAIS 2026 releases (Unity AI Gateway hard spend caps and pre-execution
+approvals; see [#1]). TiDB Cloud added as the first new vendor since launch
+(first assessment; see [#3]). No platform reaches 25 — the most consistent
+industry-wide gap remains the Semantic dimension.
+
 ## Layer 1: Data Gateway
 
 Purpose: connect to warehouses, object storage, databases, APIs, and lakehouse
