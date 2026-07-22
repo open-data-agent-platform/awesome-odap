@@ -20,7 +20,7 @@ semantic context, agentic SQL generation, persistent memory, and governance.
   <img src="ODAP-Landscape-2026-v1.2.png" alt="ODAP Reference Architecture — the five layers and Five Musts of the Open Data Agent Platform" width="820">
 </p>
 ## Professional Reports
-
+- [ODAP Technical Reference v0.1](docs/ODAP-Technical-Reference-v0.1-EN.md) — conformance principles and reference architecture for engineers (companion to the White Paper)
 - [ODAP Whitepaper v1.0 English PDF](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Whitepaper_v1.0_English.pdf)
 - [ODAP Whitepaper v1.0 Chinese PDF](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Whitepaper_v1.0_Chinese.pdf)
 - [ODAP Landscape 2026 English Report](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Landscape_2026_English_Report.pdf)
