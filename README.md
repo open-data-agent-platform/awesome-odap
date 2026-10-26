@@ -185,6 +185,7 @@ traces, metrics, and logs.
 and documentation.
 - [Soda](https://www.soda.io/) - Data quality monitoring and testing.
 - [OpenLineage](https://openlineage.io/) - Open standard for data lineage.
+- [Speakeasy control plane](https://www.speakeasy.com/) - MCP gateway for governing data-agent tool access with identity-based permissions, per-action security policies, and audit logs.
 
 ## Reference Products and Implementations
 
