@@ -29,6 +29,17 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 - [ODAP data-room cover documents](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/DATA_ROOM_COVER.md)
 - [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
 
+## Draft Design Proposals
+
+[Optional, non-normative design proposals](docs/design-proposals.md) cover
+human-reviewed semantic candidates, agent identity and session policy, and
+cost controls with audit evidence. They do not amend the Five Musts or Rubric
+and do not describe implemented ODAP Gateway v0.1.0 features.
+
+See the [November 2026 ecosystem review](docs/ecosystem-review-2026-11.md)
+for official sources and historical claims requiring reassessment. Existing
+Landscape scores remain dated assessments pending individual review.
+
 ## Adoption
 
 - **CloudSystem Association** — adopted the Five Musts & Scoring Rubric v1.0
@@ -123,6 +134,16 @@ used across lakehouse, ETL, and analytical workloads.
 workloads.
 
 ## Metadata, Catalog, and Semantic Context
+
+- [NVIDIA Auto Ontology](https://github.com/NVIDIA/auto-ontology) - Open-source
+  framework for semantic context and ontology generation; a potential source
+  of candidates for the [proposed approval workflow](docs/auto-ontology-integration.md).
+- [Databricks metric views](https://docs.databricks.com/gcp/en/uc-semantics/metric-views/yaml-reference)
+  - Declarative metric definitions with natural-language-assisted YAML authoring.
+- [Snowflake semantic views](https://docs.snowflake.com/en/user-guide/views-semantic/best-practices-modeling)
+  - Semantic modeling for Cortex Agents, including assisted generation.
+
+These entries describe capabilities, not ODAP conformance or certification.
 
 - [OpenMetadata](https://open-metadata.org/) - Open source context layer for
 metadata, business semantics, lineage, collaboration, and AI agent context.
