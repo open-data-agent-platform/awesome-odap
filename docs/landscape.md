@@ -17,6 +17,14 @@ with public evidence and the relevant clause ID.
 
 ## Landscape v1.2 — July 2026
 
+Historical assessment: the scores and conclusions below reflect the July 2026
+edition. They have not been revalidated against current product capabilities.
+The [November evidence review](ecosystem-review-2026-11.md) identifies semantic
+authoring, approval, tool governance, and cost enforcement for reassessment.
+Statements about industry-wide semantic gaps should be read in that dated
+context. Official documentation alone does not automatically revise a score;
+each revision needs clause-level evidence and the public challenge process.
+
 | Vendor | Open | Semantic | Governed | Auditable | Cost-controlled | Total /25 |
 |---|---|---|---|---|---|---|
 | Databricks | 5 | 4 | 5 | 5 | 5 | **24** |
