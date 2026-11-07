@@ -29,6 +29,7 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 - [ODAP Landscape 2026 Chinese Report](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/ODAP_Landscape_2026_Chinese_Report.pdf)
 - [ODAP data-room cover documents](https://github.com/open-data-agent-platform/awesome-odap/blob/main/reports/DATA_ROOM_COVER.md)
 - [ODAP professional report page on GoogleSQL.com](https://googlesql.com/odap#professional-reports)
+- [LevelBench-100 & Trade Economy Index](https://levelcfo.com/benchmarks/agentic-accounting/) - Multi-system agentic accounting benchmark (75 live runs) and 9.08M US commercial building open dataset ([GitHub](https://github.com/levelcfo/levelbench-100) | [TradesIndex](https://tradesindex.org)).
 
 ## Draft Design Proposals
 
