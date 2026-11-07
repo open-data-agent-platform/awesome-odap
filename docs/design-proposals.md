@@ -1,6 +1,11 @@
 # Design Proposals
 
-These drafts are informative and optional. They do not amend the Five Musts or Scoring Rubric and do not describe implemented ODAP Gateway v0.1.0 functionality.
+These drafts are informative and optional. They do not amend the Five Musts or
+Scoring Rubric. Parts of these directions are implemented in the
+[ODAP Gateway v0.2.0-preview.1 release](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.2.0-preview.1);
+its release notes describe the implemented scope and unresolved deployment and
+acceptance requirements. This is not a claim that every proposal is implemented
+or independently validated. The original v0.1.0 clause mapping is historical.
 
 - [Auto Ontology integration and semantic release](auto-ontology-integration.md)
 - [Agent identity and session policy](agent-identity-and-session-policy.md)

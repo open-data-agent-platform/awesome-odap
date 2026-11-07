@@ -15,7 +15,8 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 > **Five Musts** (Open, Semantic, Governed, Auditable, Cost-controlled) — are
 > defined in [The ODAP Manifesto](https://googlesql.com/odap/manifesto).
 > This repository is the neutral ecosystem map built around those principles.
-> Reference implementation now open source: [odap-gateway](https://github.com/open-data-agent-platform/odap-gateway) (Apache-2.0, [clause-mapped](https://github.com/open-data-agent-platform/odap-gateway/blob/main/ODAP_CLAUSE_MAPPING.md)).
+> Maintainer-affiliated reference implementation: [ODAP Gateway](https://github.com/open-data-agent-platform/odap-gateway)
+> (Apache-2.0; preview, not a declaration of production readiness or independent acceptance).
 <p align="center">
   <img src="ODAP-Landscape-2026-v1.2.png" alt="ODAP Reference Architecture — the five layers and Five Musts of the Open Data Agent Platform" width="820">
 </p>
@@ -33,12 +34,19 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 
 [Optional, non-normative design proposals](docs/design-proposals.md) cover
 human-reviewed semantic candidates, agent identity and session policy, and
-cost controls with audit evidence. They do not amend the Five Musts or Rubric
-and do not describe implemented ODAP Gateway v0.1.0 features.
+cost controls with audit evidence. They do not amend the Five Musts or Rubric.
+Parts of these directions are implemented in
+[ODAP Gateway v0.2.0-preview.1](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.2.0-preview.1).
+Its versioned release notes distinguish implemented scope from open deployment
+and acceptance requirements; the preview is not a production-readiness claim.
+The Gateway's July 2026 v0.1.0 clause mapping remains a historical assessment,
+not an updated evaluation of this preview.
 
 See the [November 2026 ecosystem review](docs/ecosystem-review-2026-11.md)
 for official sources and historical claims requiring reassessment. Existing
-Landscape scores remain dated assessments pending individual review.
+Landscape scores remain dated assessments pending individual review, tracked in
+[reassessment issue #10](https://github.com/open-data-agent-platform/awesome-odap/issues/10).
+See [this documentation update's sources and boundaries](docs/update-notes-2026-11.md).
 
 ## Adoption
 
@@ -135,6 +143,9 @@ workloads.
 
 ## Metadata, Catalog, and Semantic Context
 
+- [Apache Ossie (incubating)](https://github.com/apache/ossie) - Formerly Open
+  Semantic Interchange (OSI); an Apache-2.0 specification for exchanging semantic
+  models across analytics, AI and BI tools using JSON and YAML.
 - [NVIDIA Auto Ontology](https://github.com/NVIDIA/auto-ontology) - Open-source
   framework for semantic context and ontology generation; a potential source
   of candidates for the [proposed approval workflow](docs/auto-ontology-integration.md).
@@ -155,6 +166,20 @@ discovery, observability, and governance.
 governed metrics and embedded analytics.
 - [MetricFlow](https://github.com/dbt-labs/metricflow) - Semantic layer query
 engine used by dbt Labs.
+
+## Agent Protocols and Governed Runtimes
+
+Adjacent layers, listed for context rather than ODAP conformance or certification.
+Protocol support or runtime isolation alone does not establish semantic binding,
+effective tenant authorization, audit completeness or budget enforcement.
+
+- [A2A Protocol](https://a2a-protocol.org/) - An open protocol for communication
+  and collaboration between agents built on different frameworks.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - An open
+  protocol connecting AI applications to external tools and data sources.
+- [NVIDIA AI Factory Operations Agent](https://github.com/NVIDIA/AI-Factory-Operations-Agent) -
+  Experimental Apache-2.0 blueprint for cluster operations, including read-only
+  inspection and sandboxed command execution; not a semantic interchange format.
 
 ## Agent Orchestration and AI Frameworks
 
@@ -209,12 +234,13 @@ and documentation.
 
 ## Reference Products and Implementations
 
-- [Open Data Agent Platform (GoogleSQL.com)](https://googlesql.com/) -
-Initiating signatory of the [ODAP Manifesto](https://googlesql.com/odap/manifesto)
-and reference implementation of the Five Musts — schema-aware SQL generation,
-dry-run cost estimation, approval flows, and audit trails, starting with
-BigQuery. Now open source: [odap-gateway](https://github.com/open-data-agent-platform/odap-gateway)
-(Apache-2.0, with an honest [clause-by-clause mapping](https://github.com/open-data-agent-platform/odap-gateway/blob/main/ODAP_CLAUSE_MAPPING.md)).
+- (maintainer-affiliated) [GoogleSQL.com](https://googlesql.com/) - Project site
+  for ODAP materials and the [hosted Gateway preview](https://googlesql.com/gateway).
+- (maintainer-affiliated) [ODAP Gateway](https://github.com/open-data-agent-platform/odap-gateway) -
+  Apache-2.0 reference implementation; the
+  [v0.2.0-preview.1 release](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.2.0-preview.1)
+  describes semantic review, scoped approval contracts and receipt workflows,
+  with independent integration and pilot acceptance still open.
 
 - [Wren AI](https://www.getwren.ai/) - A strong adjacent open-source GenBI
 implementation with context, semantic modeling, policies, memory, and
@@ -222,6 +248,19 @@ governed text-to-SQL.
 - [Databricks Genie Agents](https://www.databricks.com/product/genie/agents) -
 A major commercial implementation of conversational analytics in a lakehouse
 environment.
+
+The [July 2026 v0.1.0 clause mapping](https://github.com/open-data-agent-platform/odap-gateway/blob/af57728ffbe96f67dcf5341582b8ac04307cba54/ODAP_CLAUSE_MAPPING.md)
+is historical, not a certification or a reassessment of the preview. The hosted
+preview does not by itself configure OAuth, enroll administrators or authorize
+warehouse queries. See the release's explicit limitations.
+
+### Affiliation Disclosure
+
+The maintainers are affiliated with ODAP Gateway and GoogleSQL.com; their entries
+are labeled above. The CloudSystem Association adoption statement has its own
+conflict-of-interest disclosure linked under [Adoption](#adoption). Inclusion,
+affiliation disclosure and reference-implementation status are not independent
+conformance assessments or endorsements of the other listed projects.
 
 ## Evaluation Checklist
 
