@@ -177,6 +177,9 @@ effective tenant authorization, audit completeness or budget enforcement.
   and collaboration between agents built on different frameworks.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - An open
   protocol connecting AI applications to external tools and data sources.
+- [No Stairs Please MCP Server](https://nostairsplease.com/mcp) - Public read-only
+  Model Context Protocol server and venue dataset for US & BC independent
+  live-music rooms and accessibility metadata ([nostairsplease.com](https://nostairsplease.com/)).
 - [NVIDIA AI Factory Operations Agent](https://github.com/NVIDIA/AI-Factory-Operations-Agent) -
   Experimental Apache-2.0 blueprint for cluster operations, including read-only
   inspection and sandboxed command execution; not a semantic interchange format.
