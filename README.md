@@ -175,6 +175,7 @@ effective tenant authorization, audit completeness or budget enforcement.
 
 - [A2A Protocol](https://a2a-protocol.org/) - An open protocol for communication
   and collaboration between agents built on different frameworks.
+- [No Stairs Please](https://nostairsplease.com/venues) - Open directory and remote MCP server (https://nostairsplease.com/mcp) of independent live-music venues across all 50 US states, DC, and British Columbia.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - An open
   protocol connecting AI applications to external tools and data sources.
 - [NVIDIA AI Factory Operations Agent](https://github.com/NVIDIA/AI-Factory-Operations-Agent) -
