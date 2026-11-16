@@ -36,7 +36,7 @@ semantic context, agentic SQL generation, persistent memory, and governance.
 human-reviewed semantic candidates, agent identity and session policy, and
 cost controls with audit evidence. They do not amend the Five Musts or Rubric.
 Parts of these directions are implemented in
-[ODAP Gateway v0.2.0-preview.1](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.2.0-preview.1).
+[ODAP Gateway v0.3.0-preview.1](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.3.0-preview.1).
 Its versioned release notes distinguish implemented scope from open deployment
 and acceptance requirements; the preview is not a production-readiness claim.
 The Gateway's July 2026 v0.1.0 clause mapping remains a historical assessment,
@@ -238,9 +238,14 @@ and documentation.
   for ODAP materials and the [hosted Gateway preview](https://googlesql.com/gateway).
 - (maintainer-affiliated) [ODAP Gateway](https://github.com/open-data-agent-platform/odap-gateway) -
   Apache-2.0 reference implementation; the
-  [v0.2.0-preview.1 release](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.2.0-preview.1)
-  describes semantic review, scoped approval contracts and receipt workflows,
-  with independent integration and pilot acceptance still open.
+  [v0.3.0-preview.1 release](https://github.com/open-data-agent-platform/odap-gateway/releases/tag/v0.3.0-preview.1)
+  includes BigQuery workflows and a separate, bounded
+  [PostgreSQL Node host](https://github.com/open-data-agent-platform/odap-gateway/blob/v0.3.0-preview.1/docs/POSTGRESQL_CONNECTOR.md)
+  for released single-table COUNT/SUM reads with tenant RLS, scoped approval,
+  signed Agent delegation and bounded evidence export. Synthetic real-engine
+  checks cover exact PostgreSQL 15.20, 16.16, 17.12 and 18.7 builds; this is not
+  arbitrary SQL support, a hosted PostgreSQL query service or independent acceptance.
+  Monetary cost remains unpriced and real pilot acceptance remains open.
 
 - [Wren AI](https://www.getwren.ai/) - A strong adjacent open-source GenBI
 implementation with context, semantic modeling, policies, memory, and
